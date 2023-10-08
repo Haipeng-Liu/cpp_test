@@ -1,5 +1,5 @@
 /.cache/
-./.vscode
-./build
-./cmake-build-debug
-./.idea
+.vscode/
+build/
+cmake-build-debug/
+.idea/

@@ -7,24 +7,7 @@
 
 #endif //TEST_MATH_TEST_H
 #include <bits/stdc++.h>
-
-typedef float              float32_t;
-typedef double             float64_t;
-typedef struct Point2D_f64_ {
-    float64_t x;
-    float64_t y;
-}Point2D_f64;
-typedef struct Point2D_f32_ {
-    float32_t x;
-    float32_t y;
-}Point2D_f32;
-
-#define CALC_DIST(point1, point2)  sqrtf(((point1).x - (point2).x)*((point1).x - (point2).x) + ((point1).y - (point2).y)*((point1).y - (point2).y))
-#ifndef EPSILON
-#define EPSILON (1e-6)
-#endif
-#define PI                                    (3.141592653589793f)
-
+#include "math_common/data_type.h"
 
 bool isSegmentCross(Point2D_f64 a,Point2D_f64 b,Point2D_f64 c,Point2D_f64 d)
 {
