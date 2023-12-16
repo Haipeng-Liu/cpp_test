@@ -1,7 +1,7 @@
 
 #ifndef TEST_DATA_TYPE_H
 #define TEST_DATA_TYPE_H
-
+#include <cmath>
 
 typedef float              float32_t;
 typedef double             float64_t;

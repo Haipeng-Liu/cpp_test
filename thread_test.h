@@ -9,6 +9,7 @@
 #include <mutex>          // std::mutex, std::unique_lock
 #include <atomic>
 #include <condition_variable> // std::condition_variable
+#include <future>
 
 using namespace std;
 

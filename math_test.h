@@ -6,8 +6,11 @@
 #define TEST_MATH_TEST_H
 
 #endif //TEST_MATH_TEST_H
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
 #include "math_common/data_type.h"
+#include <iostream>
+#include <vector>
+#include "float.h"
 
 bool isSegmentCross(Point2D_f64 a,Point2D_f64 b,Point2D_f64 c,Point2D_f64 d)
 {
