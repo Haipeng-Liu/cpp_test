@@ -1,11 +1,12 @@
 //#include <bits/stdc++.h>
 //#include "kalman.h"
 #include "math_test.h"
-#include <algorithm>
-#include <thread>
 #include "thread_test.h"
 #include "math_common/iou.h"
 #include "math_common/common.h"
+#include "CppClassTest.h"
+#include <algorithm>
+#include <thread>
 #include <queue>
 #include <map>
 #include <set>
@@ -487,6 +488,10 @@ int main()
 {
 //    testVector2DAngle();
 
+    CppClassTest cppClassTest;
+    cppClassTest.ExecuteFunction(3);
+    cppClassTest.ExecuteFunction(2);
+    cppClassTest.ExecuteFunction(1);
 
     std::string str2{"123\0abc", 5};
     uint8_t cc = 56; // 这里是单纯想放一个整数
